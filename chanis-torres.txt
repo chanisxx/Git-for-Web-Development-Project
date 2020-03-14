@@ -1,0 +1,134 @@
+https://codepen.io/Chanisxx/pen/eYNMLRO?editors=1100 
+
+1. What is Semantic HTML? 
+  Semantic HTML helps us communicate what we are coding and gives it meaning. 
+
+    2. What is HTML used for? 
+  HTML is used to basically create the skeleton of your webpage.
+
+    3. What is an attribute and where do we put it?
+  An attribute is a characteristic of an element that you can modify. You can put it within the tag of the element.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+  The h1 tag is used to indicate the first heading you use. You can use it multiple times if you separate your sections properly.
+
+    5. Name two tags that have required attributes
+  <img> requires src= link, <a> requires href= link
+
+    6. What do we put in the head of our HTML document? 
+  Any information about the webpage itself that we don't want users to see. 
+
+    7. What is an id? 
+  It is an attribute which allows you to set a specific attribute to an element unique to that element.
+
+    8. What elements can I add an id to? 
+  It can be used on any element.
+
+    9. How many times can I use the same id on a page? 
+  You can only use it for the one element that you give the ID to. 
+
+    10. What is a class? 
+  A class is an attribute that allows you to modify elements that are called under that specific class name.
+
+    11. What elements can I add a class to? 
+  You can add a class to any element.
+
+    12. How many times can I use the same class on a page? 
+  You can use the same class as many times as you see fit. 
+
+    13. How do I get my link to open in a new tab?
+  You need to add the target attribute.
+  Example: 
+<a href= "#" target="_blank"> This is a link </a>
+
+    14. What is the alt attribute used for? 
+  It is used to give a description of an image in case of viewing issues and to make it more user-friendly.
+
+    15. How do I reference an id?
+  Type a hashtag before writing the name of the id.
+
+    16. What is the difference between a section and a div
+  A section is used to separate themes, they interpret the meaning of the webpage and categorize them. Divs do not give meaning, but they separate the webpage into pieces that you might want to alter design-wise.
+
+    17. What is CSS used for? 
+  CSS is used to design your webpage.
+
+    18. How to we select an element? Example - every h2 on the page
+  You would simply write the name, "h2".
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+  An example of when you would use a class is when you want to modify multiple elements and or a single element but it's in different locations. For example, paragraphs. An id is helpful when you want to modify a specific element. For example, the main header of a webpage. 
+
+    20. How do we select classes in CSS?
+  Before writing the name of the class, type "."
+	
+    21. How do we select a p element with a single class of “human””?
+  .human
+
+    22. What is a parent child selector? When would this be useful? 
+  The parent child selector is when an element (the parent) has other elements within its scope (the child). There are selectors that allow you to select the child in many different ways, such as "body > p", which selects all paragraphs that are in the direct scope of the body. It's useful to do this when you are familiar with your layout of code and desire to quickly access only some of an element(s) that meet certain requirements. 
+
+    23. How do you select all links within a div with the class of sidebar?
+  div.sidebar a
+
+    24. What is a pseudo selector?
+  A pseudo selector can select elements that you normally can't with the usual parent child selector. It relies on the element being in a certain state, such as a mouse hovering over it or clicking it, in order for the element to be modified. 
+
+    25. What do we use the change the spacing between lines?
+  line-height
+
+    26. What do we use to change the spacing between letters?
+  letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+  CAPITALS: text-transform: uppercase
+  lowercase: text-transform: lowercase
+  Capitalize: text-transform: capitalize
+
+    28. How do I add a 1px border around my div that is dotted and black?
+  div {
+    Border: 1px dotted black;
+}
+
+    29. How do I select everything on the page? 
+  Use an asterisk *
+
+    30. How do I write a comment in CSS?
+  /* The forward slash and asterisk allows this comment to be made without disrupting code */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+  Type in pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+  Type in ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+  Type in rm and then the file you want to delete. You should be careful with this because you can accidentally delete a file and will not be able to retrieve it.
+
+    34. Why should I use version control? 
+  Version control holds records of older versions of a certain file(s) which could be really important to access down the line. 
+
+    35. How often should I commit to github?
+  You should commit to Github often. When creating a new feature, it is recommended to commit, only after running tests and making sure it does disrupt existing code. 
+
+    36. What is the command we would use to push our repo up to github? 
+  Git push
+
+    37. Walk me through Lambda's git flow. 
+  - fork the assignment
+  - add your TL as a collaborator
+  - clone your repo
+	-copy the link on Github
+	-go to terminal and type "git clone (paste the url here)"
+  - create a branch
+	-cd (name of file here)
+	-git checkout -b 'firstname-lastname'
+  - push the new branch to Github 
+	-git push -u origin firstname-lastname
+  - work on document and make future pushes to branch
+  - On Github, click on compare and pull request 
+	- base: YOUR MASTER, and compare your fork
+  - Add you TL as a reviewer
+	- click on open a pull request and click on reviewers. Your TL should be there.
+
+
